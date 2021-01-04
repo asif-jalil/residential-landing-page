@@ -1,0 +1,565 @@
+/* LG Device :992px. */
+@media (min-width: 992px) and (max-width: 1199px) {
+  header {
+    height: 60px;
+  }
+
+  .navbar-brand {
+    max-width: 300px;
+  }
+
+  .main-nav .nav-item {
+    margin: 0;
+  }
+
+  .home {
+    height: 900px;
+    margin-top: 55px;
+  }
+
+  .home-banner-2 {
+    max-width: 415px;
+  }
+
+  .home-content {
+    max-width: 600px;
+  }
+
+  .home-content h4 {
+    font-size: 22px;
+  }
+
+  .home-content h1 {
+    font-size: 70px;
+  }
+
+  .home-content p {
+    font-size: 24px;
+  }
+
+  .single-form-input input,
+  .single-form-input select {
+    height: 40px;
+  }
+
+  .home-btn-1,
+  .home-btn-2 {
+    height: 40px;
+    line-height: 40px;
+    font-size: 14px;
+  }
+
+  .c2a {
+    padding: 30px 0 0 0;
+  }
+
+  .c2a-img .c2a-img-1 {
+    right: 25px;
+    width: 270px;
+  }
+
+  .section-title h3 {
+    font-size: 36px;
+  }
+
+  .foot-social li {
+    margin-right: 5px;
+  }
+
+}
+
+/* MD Device :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+
+  header {
+    height: auto;
+    min-height: 60px;
+    padding: 0;
+  }
+
+  .navbar {
+    padding: .3rem 0;
+  }
+
+  .navbar-brand {
+    max-width: 350px;
+  }
+
+  .main-nav {
+    align-items: center;
+    margin-top: 15px;
+  }
+
+  .main-nav .nav-item {
+    margin: 8px 0;
+  }
+
+  .home {
+    height: 800px;
+    margin-top: 55px;
+  }
+
+  .home-banner-1 {
+    max-width: 75%;
+  }
+
+  .home-banner-2 {
+    max-width: 415px;
+  }
+
+  .home-content-wrapper {
+    padding: 0;
+  }
+
+  .home-content {
+    max-width: 500px;
+    margin-top: 50px;
+  }
+
+  .home-content h4 {
+    font-size: 20px;
+  }
+
+  .home-content h1 {
+    font-size: 55px;
+  }
+
+  .home-content p {
+    font-size: 22px;
+    margin-bottom: 30px;
+  }
+
+  .home-tab-list .nav-link {
+    font-size: 15px;
+    padding: 10px 12px;
+  }
+
+  .home-form {
+    padding: 30px 30px 25px;
+  }
+
+  .single-form-input input,
+  .single-form-input select {
+    height: 37px;
+    font-size: 13px;
+  }
+
+  .single-form-input textarea {
+    height: 50px;
+    font-size: 13px;
+  }
+
+  .home-btn-1,
+  .home-btn-2 {
+    height: 40px;
+    line-height: 40px;
+    font-size: 12px;
+  }
+
+  .section-title h5 {
+    font-size: 17px;
+  }
+
+  .section-title h3 {
+    font-size: 36px;
+  }
+
+  .about-mission .nav-pills li a {
+    font-size: 13px;
+    padding: 8px 15px 8px 14px;
+  }
+
+  .about-mission .nav-pills li a i {
+    font-size: 15px;
+  }
+
+  .c2a {
+    padding: 0;
+  }
+
+  .c2a-img {
+    text-align: center;
+  }
+
+  .c2a-img .c2a-img-1 {
+    position: relative;
+    right: 0;
+  }
+
+  .service .section-title h3 {
+    max-width: auto;
+  }
+
+  .service-item {
+    padding: 30px;
+  }
+
+  .service-img img {
+    width: unset;
+    height: unset;
+    max-width: 100%;
+  }
+
+  .round-btn-1:not(.subs-btn):not(.ctn-btn),
+  .round-btn-2:not(.subs-btn):not(.ctn-btn) {
+    padding: 10px 10px 10px;
+    font-size: 14px;
+  }
+
+  .faq-content {
+    max-width: 100%;
+  }
+
+  .faq-img {
+    text-align: center;
+  }
+
+  .faq-img img {
+    max-width: 60%;
+  }
+
+  .review-slider {
+    width: 550px;
+  }
+
+  .review-slider .owl-nav .owl-prev {
+    left: -60px;
+  }
+
+  .review-slider .owl-nav .owl-next {
+    right: -60px;
+  }
+
+  .single-review {
+    max-width: 480px;
+  }
+
+}
+
+/* Extra small Device. */
+@media (max-width: 767px) {
+  header {
+    height: auto;
+    min-height: 50px;
+    padding: 0;
+  }
+
+  .navbar {
+    padding: .3rem 0;
+  }
+
+  .navbar-brand {
+    max-width: 180px;
+  }
+
+  .main-nav {
+    align-items: center;
+    margin-top: 15px;
+  }
+
+  .main-nav .nav-item {
+    margin: 8px 0;
+  }
+
+  .home {
+    height: auto;
+    margin-top: 45px;
+    padding: 40px 0;
+  }
+
+  .home-banner-1 {
+    max-width: 75%;
+  }
+
+  .home-content-wrapper {
+    padding: 0;
+  }
+
+  .home-content {
+    max-width: 500px;
+    margin-top: 40px;
+  }
+
+  .home-content h4 {
+    font-size: 18px;
+  }
+
+  .home-content h1 {
+    font-size: 40px;
+  }
+
+  .home-content p {
+    font-size: 20px;
+    margin-bottom: 30px;
+  }
+
+  .home-tab-list .nav-link {
+    font-size: 15px;
+    padding: 10px 12px;
+  }
+
+  .home-form {
+    padding: 30px 25px 25px;
+  }
+
+  .single-form-input input,
+  .single-form-input select {
+    height: 37px;
+    font-size: 13px;
+  }
+
+  .single-form-input textarea {
+    height: 55px;
+    font-size: 13px;
+  }
+
+  .home-btn-1,
+  .home-btn-2 {
+    height: 37px;
+    line-height: 37px;
+    font-size: 12px;
+  }
+
+  .section-title h5 {
+    font-size: 16px;
+  }
+
+  .section-title h3 {
+    font-size: 32px;
+  }
+
+  .section-title p {
+    font-size: 14px;
+  }
+
+  .single-feature {
+    padding: 25px;
+  }
+
+  .single-feature h4 {
+    font-size: 18px;
+  }
+
+  .single-feature p {
+    font-size: 14px;
+  }
+
+  .single-feature i {
+    font-size: 45px !important;
+  }
+
+  .feature-slider .owl-dots .owl-dot {
+    margin: 0 7px;
+  }
+
+  .about-img {
+    margin-bottom: 40px;
+  }
+
+  .about-mission .nav-pills li {
+    margin-right: 5px;
+  }
+
+  .about-mission .nav-pills li a {
+    font-size: 13px;
+    padding: 8px 15px 8px 14px;
+  }
+
+  .about-mission .nav-pills li a i,
+  .about-mission .tab-content ul li {
+    font-size: 15px;
+  }
+
+  .c2a {
+    padding: 0;
+  }
+
+  .c2a-content {
+    flex-direction: column;
+  }
+
+  .c2a-content .section-title {
+    text-align: center;
+  }
+
+  .c2a-content .section-title h3 {
+    font-size: 24px;
+    margin-bottom: 30px;
+    max-width: 365px;
+  }
+
+  .c2a-img {
+    text-align: center;
+  }
+
+  .c2a-img .c2a-img-1 {
+    position: relative;
+    right: 0;
+    width: unset;
+    max-width: 210px;
+  }
+
+  .service .section-title h3 {
+    max-width: auto;
+  }
+
+  .service-item {
+    padding: 30px;
+  }
+
+  .service-img img {
+    width: unset;
+    height: unset;
+    max-width: 100%;
+  }
+
+  .service-btn-wrap {
+    text-align: center;
+  }
+
+  .round-btn-1:not(.subs-btn):not(.ctn-btn),
+  .round-btn-2:not(.subs-btn):not(.ctn-btn) {
+    margin-bottom: 15px;
+  }
+
+  .service-btn {
+    margin-left: 0;
+  }
+
+  .faq-content .accordion a {
+    padding: 10px 35px 10px 15px;
+    font-size: 15px;
+  }
+
+  .faq-content .accordion p {
+    padding: 0px 40px 20px 15px;
+  }
+
+  .faq-content .accordion a:after {
+    width: 25px;
+    height: 25px;
+    line-height: 26px;
+    top: 9px;
+    font-size: 20px;
+  }
+
+  .faq-img {
+    text-align: center;
+    margin-bottom: 0;
+  }
+
+  .faq-img img {
+    max-width: 275px;
+  }
+
+  .review-slider {
+    width: 100%;
+  }
+
+  .single-review {
+    max-width: 240px;
+    box-shadow: 0px 0px 15px 0px #dddddda3;
+    padding: 30px 20px 65px;
+  }
+
+  .review-content h3 {
+    font-size: 18px;
+  }
+
+  .review-content span {
+    font-size: 14px;
+    margin-bottom: 12px;
+  }
+
+  .review-content p {
+    font-size: 14px;
+    line-height: 24px;
+  }
+
+  .review-slider .owl-stage-outer {
+    padding: 10px 0 50px 0;
+  }
+
+  .review-img {
+    bottom: -45px;
+    width: 100px;
+    height: 100px;
+  }
+
+  footer {
+    padding-top: 60px;
+  }
+
+  .foot-head {
+    font-size: 19px;
+    margin-bottom: 15px;
+  }
+
+  .foot-desc p {
+    font-size: 14px;
+  }
+
+  .foot-contact-info li span {
+    font-size: 14px;
+  }
+
+  .foot-contact-info li i {
+    font-size: 14px;
+    width: 25px;
+  }
+
+  .subs-form input {
+    padding: 10px 110px 10px 20px;
+  }
+
+  .copyright {
+    text-align: center;
+  }
+
+  .copyright-text {
+    font-size: 13px;
+    line-height: 23px;
+    margin-bottom: 20px;
+  }
+
+  .privacy-links {
+    float: none;
+  }
+
+  .privacy-links li {
+    font-size: 13px;
+  }
+
+}
+
+/* SM Device :576px. */
+@media (min-width: 576px) and (max-width: 767px) {
+  .navbar-brand {
+    max-width: 250px;
+  }
+
+  .home-content {
+    max-width: 450px;
+  }
+
+  .home-content h1 {
+    font-size: 46px;
+  }
+
+  .service-img img {
+    max-width: 320px;
+  }
+
+  .faq-img img {
+    max-width: 370px;
+  }
+
+  .review-slider {
+    width: 400px;
+  }
+
+  .single-review {
+    max-width: 300px;
+  }
+
+}
